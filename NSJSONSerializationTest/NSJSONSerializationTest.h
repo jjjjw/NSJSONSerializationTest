@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface NSJSONSerializationTestTests : SenTestCase
+@interface NSJSONSerializationTest : SenTestCase
 
 @end

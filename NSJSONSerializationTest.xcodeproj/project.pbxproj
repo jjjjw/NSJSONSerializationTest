@@ -7,20 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C38FBD816B4E16300D9F314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBD716B4E16300D9F314 /* UIKit.framework */; };
 		1C38FBDA16B4E16300D9F314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBD916B4E16300D9F314 /* Foundation.framework */; };
-		1C38FBDC16B4E16300D9F314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBDB16B4E16300D9F314 /* CoreGraphics.framework */; };
-		1C38FBE216B4E16300D9F314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FBE016B4E16300D9F314 /* InfoPlist.strings */; };
-		1C38FBE416B4E16300D9F314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C38FBE316B4E16300D9F314 /* main.m */; };
-		1C38FBE816B4E16300D9F314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C38FBE716B4E16300D9F314 /* AppDelegate.m */; };
-		1C38FBEA16B4E16300D9F314 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FBE916B4E16300D9F314 /* Default.png */; };
-		1C38FBEC16B4E16300D9F314 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FBEB16B4E16300D9F314 /* Default@2x.png */; };
-		1C38FBEE16B4E16300D9F314 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FBED16B4E16300D9F314 /* Default-568h@2x.png */; };
 		1C38FBF616B4E16300D9F314 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBF516B4E16300D9F314 /* SenTestingKit.framework */; };
-		1C38FBF716B4E16300D9F314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBD716B4E16300D9F314 /* UIKit.framework */; };
 		1C38FBF816B4E16300D9F314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C38FBD916B4E16300D9F314 /* Foundation.framework */; };
 		1C38FC0016B4E16300D9F314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FBFE16B4E16300D9F314 /* InfoPlist.strings */; };
-		1C38FC0316B4E16300D9F314 /* NSJSONSerializationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C38FC0216B4E16300D9F314 /* NSJSONSerializationTestTests.m */; };
+		1C38FC0316B4E16300D9F314 /* NSJSONSerializationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C38FC0216B4E16300D9F314 /* NSJSONSerializationTest.m */; };
+		1C38FC1016B4E1E100D9F314 /* float-test1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FC0F16B4E1E100D9F314 /* float-test1.json */; };
+		1C38FC1216B4E1FD00D9F314 /* float-test2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C38FC1116B4E1FD00D9F314 /* float-test2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +28,16 @@
 
 /* Begin PBXFileReference section */
 		1C38FBD316B4E16300D9F314 /* NSJSONSerializationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSJSONSerializationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C38FBD716B4E16300D9F314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C38FBD916B4E16300D9F314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1C38FBDB16B4E16300D9F314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C38FBDF16B4E16300D9F314 /* NSJSONSerializationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSJSONSerializationTest-Info.plist"; sourceTree = "<group>"; };
-		1C38FBE116B4E16300D9F314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1C38FBE316B4E16300D9F314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C38FBE516B4E16300D9F314 /* NSJSONSerializationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerializationTest-Prefix.pch"; sourceTree = "<group>"; };
-		1C38FBE616B4E16300D9F314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1C38FBE716B4E16300D9F314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C38FBE916B4E16300D9F314 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1C38FBEB16B4E16300D9F314 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1C38FBED16B4E16300D9F314 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1C38FBF416B4E16300D9F314 /* NSJSONSerializationTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSJSONSerializationTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C38FBF516B4E16300D9F314 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C38FBFD16B4E16300D9F314 /* NSJSONSerializationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSJSONSerializationTestTests-Info.plist"; sourceTree = "<group>"; };
+		1C38FBFD16B4E16300D9F314 /* NSJSONSerializationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSJSONSerializationTest-Info.plist"; sourceTree = "<group>"; };
 		1C38FBFF16B4E16300D9F314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1C38FC0116B4E16300D9F314 /* NSJSONSerializationTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSJSONSerializationTestTests.h; sourceTree = "<group>"; };
-		1C38FC0216B4E16300D9F314 /* NSJSONSerializationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTestTests.m; sourceTree = "<group>"; };
+		1C38FC0116B4E16300D9F314 /* NSJSONSerializationTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSJSONSerializationTest.h; sourceTree = "<group>"; };
+		1C38FC0216B4E16300D9F314 /* NSJSONSerializationTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSJSONSerializationTest.m; sourceTree = "<group>"; };
+		1C38FC0F16B4E1E100D9F314 /* float-test1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "float-test1.json"; sourceTree = "<group>"; };
+		1C38FC1116B4E1FD00D9F314 /* float-test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "float-test2.json"; sourceTree = "<group>"; };
+		1C38FC4A16B4E52300D9F314 /* NSJSONSerializationTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerializationTest-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C38FBD816B4E16300D9F314 /* UIKit.framework in Frameworks */,
 				1C38FBDA16B4E16300D9F314 /* Foundation.framework in Frameworks */,
-				1C38FBDC16B4E16300D9F314 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +54,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C38FBF616B4E16300D9F314 /* SenTestingKit.framework in Frameworks */,
-				1C38FBF716B4E16300D9F314 /* UIKit.framework in Frameworks */,
 				1C38FBF816B4E16300D9F314 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +64,7 @@
 		1C38FBC816B4E16300D9F314 = {
 			isa = PBXGroup;
 			children = (
-				1C38FBDD16B4E16300D9F314 /* NSJSONSerializationTest */,
-				1C38FBFB16B4E16300D9F314 /* NSJSONSerializationTestTests */,
+				1C38FBFB16B4E16300D9F314 /* NSJSONSerializationTest */,
 				1C38FBD616B4E16300D9F314 /* Frameworks */,
 				1C38FBD416B4E16300D9F314 /* Products */,
 			);
@@ -101,52 +82,29 @@
 		1C38FBD616B4E16300D9F314 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C38FBD716B4E16300D9F314 /* UIKit.framework */,
 				1C38FBD916B4E16300D9F314 /* Foundation.framework */,
-				1C38FBDB16B4E16300D9F314 /* CoreGraphics.framework */,
 				1C38FBF516B4E16300D9F314 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1C38FBDD16B4E16300D9F314 /* NSJSONSerializationTest */ = {
+		1C38FBFB16B4E16300D9F314 /* NSJSONSerializationTest */ = {
 			isa = PBXGroup;
 			children = (
-				1C38FBE616B4E16300D9F314 /* AppDelegate.h */,
-				1C38FBE716B4E16300D9F314 /* AppDelegate.m */,
-				1C38FBDE16B4E16300D9F314 /* Supporting Files */,
-			);
-			path = NSJSONSerializationTest;
-			sourceTree = "<group>";
-		};
-		1C38FBDE16B4E16300D9F314 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C38FBDF16B4E16300D9F314 /* NSJSONSerializationTest-Info.plist */,
-				1C38FBE016B4E16300D9F314 /* InfoPlist.strings */,
-				1C38FBE316B4E16300D9F314 /* main.m */,
-				1C38FBE516B4E16300D9F314 /* NSJSONSerializationTest-Prefix.pch */,
-				1C38FBE916B4E16300D9F314 /* Default.png */,
-				1C38FBEB16B4E16300D9F314 /* Default@2x.png */,
-				1C38FBED16B4E16300D9F314 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1C38FBFB16B4E16300D9F314 /* NSJSONSerializationTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				1C38FC0116B4E16300D9F314 /* NSJSONSerializationTestTests.h */,
-				1C38FC0216B4E16300D9F314 /* NSJSONSerializationTestTests.m */,
+				1C38FC0116B4E16300D9F314 /* NSJSONSerializationTest.h */,
+				1C38FC0216B4E16300D9F314 /* NSJSONSerializationTest.m */,
 				1C38FBFC16B4E16300D9F314 /* Supporting Files */,
 			);
-			path = NSJSONSerializationTestTests;
+			path = NSJSONSerializationTest;
 			sourceTree = "<group>";
 		};
 		1C38FBFC16B4E16300D9F314 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1C38FBFD16B4E16300D9F314 /* NSJSONSerializationTestTests-Info.plist */,
+				1C38FC4A16B4E52300D9F314 /* NSJSONSerializationTest-Prefix.pch */,
+				1C38FC0F16B4E1E100D9F314 /* float-test1.json */,
+				1C38FC1116B4E1FD00D9F314 /* float-test2.json */,
+				1C38FBFD16B4E16300D9F314 /* NSJSONSerializationTest-Info.plist */,
 				1C38FBFE16B4E16300D9F314 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -223,10 +181,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C38FBE216B4E16300D9F314 /* InfoPlist.strings in Resources */,
-				1C38FBEA16B4E16300D9F314 /* Default.png in Resources */,
-				1C38FBEC16B4E16300D9F314 /* Default@2x.png in Resources */,
-				1C38FBEE16B4E16300D9F314 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C38FC0016B4E16300D9F314 /* InfoPlist.strings in Resources */,
+				1C38FC1016B4E1E100D9F314 /* float-test1.json in Resources */,
+				1C38FC1216B4E1FD00D9F314 /* float-test2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C38FBE416B4E16300D9F314 /* main.m in Sources */,
-				1C38FBE816B4E16300D9F314 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C38FC0316B4E16300D9F314 /* NSJSONSerializationTestTests.m in Sources */,
+				1C38FC0316B4E16300D9F314 /* NSJSONSerializationTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +239,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C38FBE016B4E16300D9F314 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C38FBE116B4E16300D9F314 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		1C38FBFE16B4E16300D9F314 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,7 +334,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSJSONSerializationTest/NSJSONSerializationTest-Prefix.pch";
-				INFOPLIST_FILE = "NSJSONSerializationTestTests/NSJSONSerializationTestTests-Info.plist";
+				INFOPLIST_FILE = "NSJSONSerializationTest/NSJSONSerializationTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -405,7 +351,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSJSONSerializationTest/NSJSONSerializationTest-Prefix.pch";
-				INFOPLIST_FILE = "NSJSONSerializationTestTests/NSJSONSerializationTestTests-Info.plist";
+				INFOPLIST_FILE = "NSJSONSerializationTest/NSJSONSerializationTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
